@@ -1,0 +1,11 @@
+services:
+  profiledb:
+      image: postgres:16
+    
+  profileserviceglobal:
+    image: ${DOCKER_REGISTRY-}profileserviceglobal
+    build:
+      context: .
+      dockerfile: ProfileServiceGlobal/Dockerfile
+volumes:
+    postgress_profile:
