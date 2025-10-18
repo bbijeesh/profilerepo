@@ -4,7 +4,8 @@
       "commandName": "DockerCompose",
       "commandVersion": "1.0",
       "serviceActions": {
-        "profileserviceglobal": "StartDebugging"
+        "profileserviceglobal": "StartDebugging",
+        "profilegateway": "StartDebugging"
       }
     }
   }
